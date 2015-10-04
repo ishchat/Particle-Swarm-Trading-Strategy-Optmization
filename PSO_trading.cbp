@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PSO_trading" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PSO_trading" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PSO_trading" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/MMPSO.h" />
+		<Unit filename="include/SMA.h" />
+		<Unit filename="include/SMA2.h" />
+		<Unit filename="include/particle.h" />
+		<Unit filename="include/signal.h" />
+		<Unit filename="include/transaction.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/MMPSO.cpp" />
+		<Unit filename="src/SMA.cpp" />
+		<Unit filename="src/SMA2.cpp" />
+		<Unit filename="src/particle.cpp" />
+		<Unit filename="src/signal.cpp" />
+		<Unit filename="src/transaction.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

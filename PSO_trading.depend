@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1439644542 source:/home/ishan/codeblocks/PSO_trading/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<algorithm>
+	<iterator>
+	<boost/tokenizer.hpp>
+	<cmath>
+	<string>
+	"SMA.h"
+	"MMPSO.h"
+
+1435815748 source:/home/ishan/codeblocks/PSO_trading/src/SMA.cpp
+	"SMA.h"
+	<cmath>
+	<iostream>
+
+1435781470 /home/ishan/codeblocks/PSO_trading/include/SMA.h
+	<vector>
+
+1435858563 source:/home/ishan/codeblocks/PSO_trading/src/signal.cpp
+	"signal.h"
+	"SMA.h"
+
+1435861615 /home/ishan/codeblocks/PSO_trading/include/signal.h
+	<string>
+	<vector>
+
+1435780060 source:/home/ishan/codeblocks/PSO_trading/src/SMA2.cpp
+	"SMA.h"
+	<cmath>
+	<iostream>
+
+1439684045 source:/home/ishan/codeblocks/PSO_trading/src/transaction.cpp
+	<iostream>
+	"transaction.h"
+	"signal.h"
+
+1435858563 /home/ishan/codeblocks/PSO_trading/include/transaction.h
+	<string>
+	<vector>
+
+1439714582 source:/home/ishan/codeblocks/PSO_trading/src/MMPSO.cpp
+	<vector>
+	<iostream>
+	<random>
+	"MMPSO.h"
+	"particle.h"
+	"transaction.h"
+
+1439148913 /home/ishan/codeblocks/PSO_trading/include/MMPSO.h
+	<vector>
+
+1437419449 /home/ishan/codeblocks/PSO_trading/include/particle.h
+
+1439153948 source:/home/ishan/codeblocks/PSO_trading/src/particle.cpp
+	"particle.h"
+	<random>
+
